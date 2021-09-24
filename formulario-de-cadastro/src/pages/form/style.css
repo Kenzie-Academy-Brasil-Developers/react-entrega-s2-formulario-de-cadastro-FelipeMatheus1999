@@ -1,21 +1,28 @@
+.title {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(219, 87, 120);
+  margin-bottom: 50px;
+}
+
 .form {
-    background: rgb(216, 205, 216);
-    width: 250px;
-    height: 430px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    border-radius: 10px;
+  background: rgb(209, 184, 199);
+  width: 250px;
+  height: 430px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
 }
 
 .form__input:focus {
-    background: none;
+  background: none;
 }
 
 .error {
-    width: 200px;
-    height: 15px;
-    color: red;
-    font-size: 12px;
+  width: 200px;
+  height: 15px;
+  color: red;
+  font-size: 12px;
 }

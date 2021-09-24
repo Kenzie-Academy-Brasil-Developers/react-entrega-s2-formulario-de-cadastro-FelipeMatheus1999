@@ -1,4 +1,5 @@
 import "./style.css";
+import { Container, DivImage } from "./style.js";
 import { useHistory } from "react-router-dom";
 import { Button } from "@material-ui/core";
 
@@ -10,14 +11,9 @@ const LoggedIn = () => {
   };
 
   return (
-    //resolver o problema da imagem
-    <>
-      <div className="container">
-        {/* <img
-          className="img"
-          src="../../img/undraw_High_five_re_jy71.png"
-          alt=""
-        /> */}
+      <Container>
+        <h2>Cadastro concluído</h2>
+      <DivImage />
         <Button
           className="button"
           color="secondary"
@@ -26,8 +22,7 @@ const LoggedIn = () => {
         >
           Back
         </Button>
-      </div>
-    </>
+      </Container>
   );
 };
 

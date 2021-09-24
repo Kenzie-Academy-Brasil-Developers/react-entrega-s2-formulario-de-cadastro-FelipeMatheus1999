@@ -1,7 +1,7 @@
 import "./App.css";
 import { Switch, Route } from "react-router-dom";
-import Form from "./pages/form";
-import LoggedIn from "./pages/isLoggedIn";
+import Form from "./pages/form/index.jsx";
+import LoggedIn from "./pages/isLoggedIn/index.jsx";
 
 function App() {
 
